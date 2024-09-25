@@ -25,16 +25,21 @@ console.log(luckyNumber);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-
+let food = 'tamales';
+console.log(food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-
+pets = 1;
+console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+friendsPets = 1;
+console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
-
+pets = pets + 2;
+console.log(pets ++);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+const allowedPets= 4;
+console.log(allowedPets);
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
